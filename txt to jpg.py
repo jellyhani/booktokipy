@@ -192,7 +192,7 @@ def convert_novel_folder(novel_folder):
         pool.map(process_file, tasks)
 
 def main():
-    print("\n소설 텍스트 이미지 변환기 v7 (넓은 화면)")
+    print("\n소설 텍스트 이미지 변환기")
     print("=" * 40)
     folder_path = input("\n소설 최상위 폴더 경로를 입력하세요: ").strip()
     
